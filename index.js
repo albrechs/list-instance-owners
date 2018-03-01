@@ -2,7 +2,6 @@
 
 'use strict'
 
-require('console.table')
 const app = require('commander')
 const owners = require('./lib/list-instance-owners.js')
 
