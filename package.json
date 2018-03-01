@@ -1,0 +1,28 @@
+{
+  "name": "list-instance-owners",
+  "version": "1.0.0",
+  "description": "list EC2 instances with value of owner tag",
+  "main": "index.js",
+  "bin": {
+    "list-instance-owners": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albrechs/list-instance-owners.git"
+  },
+  "author": "sta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albrechs/list-instance-owners/issues"
+  },
+  "homepage": "https://github.com/albrechs/list-instance-owners#readme",
+  "dependencies": {
+    "aws-sdk": "^2.204.0",
+    "commander": "^2.14.1",
+    "console.table": "^0.10.0",
+    "query-array": "0.0.1"
+  }
+}
