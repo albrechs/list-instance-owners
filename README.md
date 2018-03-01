@@ -17,4 +17,4 @@ This is a command line tool that will list the InstanceID, Owner, Instance Type,
 `list-instance-owners --region <region>`
 
 #### Authentication
-list-instance-owners will use the credtials stored in ~/.aws/credentials for the active AWS profile or role based authentication
+list-instance-owners will use the credtials stored in ~/.aws/credentials for the active AWS profile, or role based authentication
