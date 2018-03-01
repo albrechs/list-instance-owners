@@ -26,5 +26,12 @@ This is a command line tool that will list the InstanceID, Owner, Instance Type,
 
 `list-instance-owners -r us-east-1 -t Name` (Queries the Name tag of instances in us-east-1)
 
+#### Sample Output
+##### Owner Query
+![Image failed to load](./img/ownerQueryExample.png "Sample output for Owner tag")
+
+##### Name Query
+![Image failed to load](./img/nameQueryExample.png "Sample output for Name tag")
+
 #### Authentication
 list-instance-owners will use the credtials stored in ~/.aws/credentials for the active AWS profile, or role based authentication
