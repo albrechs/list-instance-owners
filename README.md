@@ -8,10 +8,13 @@ This is a command line tool that will list the InstanceID, Owner, Instance Type,
 * run `sudo npm link` to install dependencies and add to your PATH
 
 ## Usage
-#### Default Region (us-west-1)
+#### Default Region (us-west-2)
 `list-instance-owners`
 
 #### Using the Region Flag
-`list-instance-owners -r <region>` 
+`list-instance-owners -r <region>`
 
 `list-instance-owners --region <region>`
+
+#### Authentication
+list-instance-owners will use the credtials stored in ~/.aws/credentials for the active AWS profile or role based authentication
